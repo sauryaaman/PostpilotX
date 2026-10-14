@@ -9,7 +9,7 @@ import { useAuth } from '../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
 import AdminAuth from '../pages/signup';
 
-import "./Navbar.css";
+import "./navbar.css";
 
 
 

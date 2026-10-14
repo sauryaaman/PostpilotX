@@ -164,7 +164,7 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
-import './Login.css';
+import './login.css';
 
 function Signup() {
   const navigate = useNavigate();

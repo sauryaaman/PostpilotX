@@ -2,7 +2,7 @@ import React from 'react';
 import { Box, Typography, Button, Container } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
-import './LandingPage.css';
+import './landingPage.css';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 function LandingPage() {
@@ -87,26 +87,11 @@ const { isAuthenticated } = useAuth();
             </div>
           </div>
           <div className="hero-visual">
-            <div className="dashboard-preview">
-              <div className="dashboard-header">
-                <div className="header-dots">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </div>
-              </div>
-              <div className="dashboard-content">
-                <div className="content-row">
-                  <div className="content-item"></div>
-                  <div className="content-item"></div>
-                  <div className="content-item"></div>
-                </div>
-                <div className="content-row">
-                  <div className="content-item large"></div>
-                  <div className="content-item"></div>
-                </div>
-              </div>
-            </div>
+            <img
+              className="hero-artwork"
+              src="/deshboard_image.png"
+              alt="PostPilot social media dashboard with connected platforms, scheduled posts, and performance tools"
+            />
           </div>
         </div>
       </section>
