@@ -50,7 +50,7 @@ const handleAuthClick = () => {
     <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
       <div className="nav-container">
         <Link to="/" className="logo" onClick={closeMobileMenu}>
-          <span className="logo-text">PostPilot</span>
+          <span className="logo-text">PostPilotX</span>
           <span className="logo-dot"></span>
         </Link>
 

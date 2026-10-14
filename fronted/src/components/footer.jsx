@@ -32,7 +32,7 @@ function Footer() {
           {/* Company Info Section */}
           <div className="footer-section">
             <div className="footer-logo">
-              <h3>PostPilot</h3>
+              <h3>BireenaSocialX</h3>
               <div className="logo-dot"></div>
             </div>
             <p className="footer-description">
